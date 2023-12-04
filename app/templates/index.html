@@ -1,0 +1,28 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' type='text/css' href="{% static "styles.css" %}">
+    <script src='{% static 'scroll.js' %}' defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <section class="navbar"><h1 class="navbar-title">Down South<br>
+                            Performance</h1></section>
+        <a onclick="scrollToPixelHeight(0)" class="nav-home"><br>HOME</a>
+        <a onclick="scrollToPixelHeight(580)" class="nav-about"><br>ABOUT US</a>
+        <a href='{% url 'contact' %}' class="nav-contact"><br>CONTACT US</a>
+        <section id="hometext" class="home-picture"><iframe width="800" height="500" src="https://www.youtube.com/embed/qnDHmMBrScU?si=MivBB8ClOV0r67sd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></section>
+        <section id="abouttext" class="about-text"><br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    Here at DSP we work with customers by doing, regular maintance, replacing any part your vehicle has, and even supercharging and turbo charging.
+                                    If anything needs custom fabercation we wont just send your vehicle off, Our team specializes in being the only place your vehicle will need.
+
+                                </section>
+</body>
+</html>

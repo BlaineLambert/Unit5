@@ -1,0 +1,136 @@
+body{
+    background-color: #444040;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+} 
+
+.navbar{
+    z-index: 1;
+    position: fixed;
+    top: -50px;
+    left: -5px;
+    height: 20%;
+    width: 100%;
+    border-color: darkslateblue;
+    border-style: solid;
+    border-width: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.navbar-title{
+    font-size: 38pt;
+}
+
+.nav-home{
+    z-index: 1;
+    position: fixed;
+    top: 3.5%;
+    left: 2%;
+    color: white;
+    font-size: 24pt;
+}
+
+.nav-home:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkslateblue;
+    font-size: 32pt;
+    z-index: 1;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+.nav-about{
+    z-index: 1;
+    position: fixed;
+    top: 3.5%;
+    left: 12%;
+    color: white;
+    font-size: 24pt;
+}
+
+.nav-about:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkslateblue;
+    font-size: 32pt;
+    z-index: 1;
+    position: fixed;
+    top: 1%;
+    left: 10%;
+}
+
+.nav-contact{
+    z-index: 1;
+    position: fixed;
+    top: 3.5%;
+    right: 4%;
+    color: white;
+    font-size: 24pt;
+}
+
+.nav-contact:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkslateblue;
+    font-size: 32pt;
+    z-index: 1;
+    position: fixed;
+    top: 1%;
+    right: 2%;
+}
+
+.home-picture{
+    position: absolute;
+    top: 25%;
+    left: 23.8%;
+    height: 500px;
+    width: 800px;
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+}
+
+.about-text{
+    position: absolute;
+    top: 100%;
+    left: 23.8%;
+    height: 500px;
+    width: 800px;
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-size: 18pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-text{
+    position: absolute;
+    top: 30%;
+    left: 23.8%;
+    height: 300px;
+    width: 800px;
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    font-size: 18pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.spacer{
+    position: absolute;
+    height: 200px;
+    top: 20%;
+    background-color: #444040;
+    color: #444040;
+}
+

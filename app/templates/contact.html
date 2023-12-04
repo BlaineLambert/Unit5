@@ -1,0 +1,25 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' type='text/css' href="{% static "contact_styles.css" %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="navbar"><h1 class="navbar-title">Down South<br>
+        Performance</h1></section>
+        <a href='{% url 'index' %}' class="nav-home"><br>HOME</a>
+        <section id="contactsection" class="contact-text"><br><p>
+                                        Get in contact today!</p>
+                                    <form>
+                                        <input type='text' name='name' placeholder='name' required>
+                                        <input type='text' name='number' placeholder='number' required>
+                                        <input type='email' name='email' placeholder='email' required>
+                                        <button>contact</button>
+                                    </form>
+                                </section>
+        <section class="spacer">you shouldnt be able to see this</section>
+</body>
+</html>
